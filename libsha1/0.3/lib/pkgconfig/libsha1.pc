@@ -1,0 +1,10 @@
+prefix=/home/linuxbrew/.linuxbrew/Cellar/libsha1/0.3
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libsha1
+Description: Tiny SHA1 implementation for embedded devices.
+Version: 0.3.99.0
+Cflags: -I${includedir}
+Libs: -L${libdir} -lsha1

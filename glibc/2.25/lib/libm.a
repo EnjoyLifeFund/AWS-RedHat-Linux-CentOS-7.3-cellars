@@ -1,0 +1,4 @@
+/* GNU ld script
+*/
+OUTPUT_FORMAT(elf64-x86-64)
+GROUP ( /home/linuxbrew/.linuxbrew/Cellar/glibc/2.25/lib/libm-2.25.a /home/linuxbrew/.linuxbrew/Cellar/glibc/2.25/lib/libmvec.a )

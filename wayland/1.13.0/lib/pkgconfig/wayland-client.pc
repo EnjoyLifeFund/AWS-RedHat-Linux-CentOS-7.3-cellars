@@ -1,0 +1,12 @@
+prefix=/home/linuxbrew/.linuxbrew/Cellar/wayland/1.13.0
+exec_prefix=${prefix}
+datarootdir=${prefix}/share
+pkgdatadir=${datarootdir}/wayland
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Wayland Client
+Description: Wayland client side library
+Version: 1.13.0
+Cflags: -I${includedir}
+Libs: -L${libdir} -lwayland-client

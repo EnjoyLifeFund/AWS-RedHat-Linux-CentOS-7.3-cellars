@@ -1,0 +1,2 @@
+#!/bin/bash
+PYTHONPATH="/home/linuxbrew/.linuxbrew/Cellar/sphinx-doc/1.6.3/libexec/lib/python2.7/site-packages:/home/linuxbrew/.linuxbrew/Cellar/sphinx-doc/1.6.3/libexec/vendor/lib/python2.7/site-packages:/home/linuxbrew/.linuxbrew/opt/apache-spark/libexec/python:/home/linuxbrew/.linuxbrew/opt/apache-spark/libexec/python/build:/usr/local/lib/python3.6/site-packages" exec "/home/linuxbrew/.linuxbrew/Cellar/sphinx-doc/1.6.3/libexec/bin/sphinx-quickstart" "$@"

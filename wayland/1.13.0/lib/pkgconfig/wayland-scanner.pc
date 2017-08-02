@@ -1,0 +1,9 @@
+prefix=/home/linuxbrew/.linuxbrew/Cellar/wayland/1.13.0
+exec_prefix=${prefix}
+datarootdir=${prefix}/share
+pkgdatadir=${datarootdir}/wayland
+wayland_scanner=${exec_prefix}/bin/wayland-scanner
+
+Name: Wayland Scanner
+Description: Wayland scanner
+Version: 1.13.0

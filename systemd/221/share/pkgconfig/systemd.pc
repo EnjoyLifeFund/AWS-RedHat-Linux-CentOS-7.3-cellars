@@ -1,0 +1,34 @@
+#  This file is part of systemd.
+#
+#  systemd is free software; you can redistribute it and/or modify it
+#  under the terms of the GNU Lesser General Public License as published by
+#  the Free Software Foundation; either version 2.1 of the License, or
+#  (at your option) any later version.
+
+prefix=/home/linuxbrew/.linuxbrew/Cellar/systemd/221
+systemdutildir=/home/linuxbrew/.linuxbrew/Cellar/systemd/221/lib/systemd
+systemdsystemunitdir=/home/linuxbrew/.linuxbrew/Cellar/systemd/221/lib/systemd/system
+systemdsystempresetdir=/home/linuxbrew/.linuxbrew/Cellar/systemd/221/lib/systemd/system-preset
+systemduserunitdir=/home/linuxbrew/.linuxbrew/Cellar/systemd/221/lib/systemd/user
+systemduserpresetdir=/home/linuxbrew/.linuxbrew/Cellar/systemd/221/lib/systemd/user-preset
+systemdsystemconfdir=/home/linuxbrew/.linuxbrew/Cellar/systemd/221/etc/systemd/system
+systemduserconfdir=/home/linuxbrew/.linuxbrew/Cellar/systemd/221/etc/systemd/user
+systemdsystemunitpath=${systemdsystemconfdir}:/etc/systemd/system:/run/systemd/system:/usr/local/lib/systemd/system:${systemdsystemunitdir}:/usr/lib/systemd/system:/lib/systemd/system
+systemduserunitpath=${systemduserconfdir}:/etc/systemd/user:/run/systemd/user:/usr/local/lib/systemd/user:/usr/local/share/systemd/user:${systemduserunitdir}:/usr/lib/systemd/user:/usr/share/systemd/user
+systemdsystemgeneratordir=/home/linuxbrew/.linuxbrew/Cellar/systemd/221/lib/systemd/system-generators
+systemdusergeneratordir=/home/linuxbrew/.linuxbrew/Cellar/systemd/221/lib/systemd/user-generators
+systemdsleepdir=/home/linuxbrew/.linuxbrew/Cellar/systemd/221/lib/systemd/system-sleep
+systemdshutdowndir=/home/linuxbrew/.linuxbrew/Cellar/systemd/221/lib/systemd/system-shutdown
+tmpfilesdir=/home/linuxbrew/.linuxbrew/Cellar/systemd/221/lib/tmpfiles.d
+sysusersdir=/home/linuxbrew/.linuxbrew/Cellar/systemd/221/lib/sysusers.d
+sysctldir=/home/linuxbrew/.linuxbrew/Cellar/systemd/221/lib/sysctl.d
+binfmtdir=/home/linuxbrew/.linuxbrew/Cellar/systemd/221/lib/binfmt.d
+modulesloaddir=/home/linuxbrew/.linuxbrew/Cellar/systemd/221/lib/modules-load.d
+catalogdir=/home/linuxbrew/.linuxbrew/Cellar/systemd/221/lib/systemd/catalog
+systemuidmax=999
+systemgidmax=999
+
+Name: systemd
+Description: systemd System and Service Manager
+URL: http://www.freedesktop.org/wiki/Software/systemd
+Version: 221

@@ -1,0 +1,9 @@
+prefix=/home/linuxbrew/.linuxbrew/Cellar/mesa/17.0.0
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: xatracker
+Description: Xorg Gallium3D acceleration library
+Version: 2.3.0
+Libs: -L${libdir} -lxatracker

@@ -1,0 +1,12 @@
+prefix=/home/linuxbrew/.linuxbrew/Cellar/pulseaudio/10.99.1
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+modlibexecdir=${exec_prefix}/lib/pulse-10.99/modules
+
+Name: libpulse
+Description: PulseAudio Client Interface
+Version: 10.99.1
+Libs: -L${libdir} -lpulse 
+Libs.private: -L${libdir}/pulseaudio -lpulsecommon-10.99
+Cflags: -I${includedir} -D_REENTRANT

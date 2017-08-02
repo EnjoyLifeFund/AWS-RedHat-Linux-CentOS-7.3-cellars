@@ -1,0 +1,5 @@
+Name: soxr-lsr
+Description: High quality, one-dimensional sample-rate conversion library (with libsamplerate-like bindings)
+Version: 0.1.2
+Libs: -L/home/linuxbrew/.linuxbrew/Cellar/libsoxr/0.1.2/lib -lsoxr-lsr
+Cflags: -I/home/linuxbrew/.linuxbrew/Cellar/libsoxr/0.1.2/include

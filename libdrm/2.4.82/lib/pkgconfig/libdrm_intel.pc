@@ -1,0 +1,11 @@
+prefix=/home/linuxbrew/.linuxbrew/Cellar/libdrm/2.4.82
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libdrm_intel
+Description: Userspace interface to intel kernel DRM services
+Version: 2.4.82
+Requires: libdrm
+Libs: -L${libdir} -ldrm_intel
+Cflags: -I${includedir} -I${includedir}/libdrm

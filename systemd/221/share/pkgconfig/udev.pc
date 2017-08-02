@@ -1,0 +1,5 @@
+Name: udev
+Description: udev
+Version: 221
+
+udevdir=/home/linuxbrew/.linuxbrew/Cellar/systemd/221/lib/udev
