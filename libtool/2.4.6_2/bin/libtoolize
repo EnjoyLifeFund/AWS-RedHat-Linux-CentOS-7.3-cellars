@@ -46,7 +46,7 @@
 : ${FGREP="/bin/grep -F"}
 : ${GREP="/bin/grep"}
 : ${LN_S="ln -s"}
-: ${SED="sed"}
+: ${SED="/home/linuxbrew/.linuxbrew/bin/sed"}
 
 
 ## -------------------------- ##
