@@ -7,7 +7,11 @@ OUTPUT_FORMAT("elf64-x86-64", "elf64-x86-64",
 	      "elf64-x86-64")
 OUTPUT_ARCH(i386:x86-64)
 ENTRY(_start)
+<<<<<<< HEAD
 SEARCH_DIR("=/home/linuxbrew/.linuxbrew/Cellar/binutils/2.29/x86_64-pc-linux-gnu/lib64"); SEARCH_DIR("=/home/linuxbrew/.linuxbrew/Cellar/binutils/2.29/lib64"); SEARCH_DIR("=/usr/local/lib64"); SEARCH_DIR("=/lib64"); SEARCH_DIR("=/usr/lib64"); SEARCH_DIR("=/home/linuxbrew/.linuxbrew/Cellar/binutils/2.29/x86_64-pc-linux-gnu/lib"); SEARCH_DIR("=/home/linuxbrew/.linuxbrew/Cellar/binutils/2.29/lib"); SEARCH_DIR("=/usr/local/lib"); SEARCH_DIR("=/lib"); SEARCH_DIR("=/usr/lib");
+=======
+SEARCH_DIR("/home/linuxbrew/.linuxbrew/Cellar/binutils/2.29/x86_64-pc-linux-gnu/lib64"); SEARCH_DIR("/home/linuxbrew/.linuxbrew/Cellar/binutils/2.29/lib64"); SEARCH_DIR("/usr/local/lib64"); SEARCH_DIR("/lib64"); SEARCH_DIR("/usr/lib64"); SEARCH_DIR("/home/linuxbrew/.linuxbrew/Cellar/binutils/2.29/x86_64-pc-linux-gnu/lib"); SEARCH_DIR("/home/linuxbrew/.linuxbrew/Cellar/binutils/2.29/lib"); SEARCH_DIR("/usr/local/lib"); SEARCH_DIR("/lib"); SEARCH_DIR("/usr/lib");
+>>>>>>> b1ef5eb6f117b546b9ec61f8df24f6e8fb1bb1e7
 SECTIONS
 {
   /* Read-only sections, merged into text segment: */

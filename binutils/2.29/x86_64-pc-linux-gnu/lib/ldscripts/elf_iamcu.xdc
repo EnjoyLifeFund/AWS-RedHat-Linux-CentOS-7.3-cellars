@@ -7,7 +7,11 @@ OUTPUT_FORMAT("elf32-iamcu", "elf32-iamcu",
 	      "elf32-iamcu")
 OUTPUT_ARCH(iamcu)
 ENTRY(_start)
+<<<<<<< HEAD
 SEARCH_DIR("=/home/linuxbrew/.linuxbrew/Cellar/binutils/2.29/x86_64-pc-linux-gnu/lib");
+=======
+SEARCH_DIR("/home/linuxbrew/.linuxbrew/Cellar/binutils/2.29/x86_64-pc-linux-gnu/lib");
+>>>>>>> b1ef5eb6f117b546b9ec61f8df24f6e8fb1bb1e7
 SECTIONS
 {
   /* Read-only sections, merged into text segment: */

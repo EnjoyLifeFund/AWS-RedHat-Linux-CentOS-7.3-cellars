@@ -2320,8 +2320,13 @@ enum
 };
 
 /* Define CC and CFLAGS which were used to build this version of GMP */
+<<<<<<< HEAD
 #define __GMP_CC "/usr/bin/gcc-4.8 -std=gnu99"
 #define __GMP_CFLAGS "-Os -w -pipe -march=core2"
+=======
+#define __GMP_CC "cc"
+#define __GMP_CFLAGS "-fomit-frame-pointer -funroll-loops  -ffast-math -fno-signed-zeros -ffp-contract=fast -mmmx -msse  -m64  "
+>>>>>>> b1ef5eb6f117b546b9ec61f8df24f6e8fb1bb1e7
 
 /* Major version number is the value of __GNU_MP__ too, above and in mp.h. */
 #define __GNU_MP_VERSION            6

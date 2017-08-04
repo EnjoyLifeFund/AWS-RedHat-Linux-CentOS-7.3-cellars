@@ -1,1 +1,0 @@
-../../bin/smtpd2.py

@@ -7,7 +7,11 @@ OUTPUT_FORMAT("elf32-i386", "elf32-i386",
 	      "elf32-i386")
 OUTPUT_ARCH(i386)
 ENTRY(_start)
+<<<<<<< HEAD
 SEARCH_DIR("=/home/linuxbrew/.linuxbrew/Cellar/binutils/2.29/i386-pc-linux-gnu/lib32"); SEARCH_DIR("=/home/linuxbrew/.linuxbrew/Cellar/binutils/2.29/x86_64-pc-linux-gnu/lib32"); SEARCH_DIR("=/home/linuxbrew/.linuxbrew/Cellar/binutils/2.29/lib32"); SEARCH_DIR("=/usr/local/lib32"); SEARCH_DIR("=/lib32"); SEARCH_DIR("=/usr/lib32"); SEARCH_DIR("=/home/linuxbrew/.linuxbrew/Cellar/binutils/2.29/i386-pc-linux-gnu/lib"); SEARCH_DIR("=/home/linuxbrew/.linuxbrew/Cellar/binutils/2.29/lib"); SEARCH_DIR("=/usr/local/lib"); SEARCH_DIR("=/lib"); SEARCH_DIR("=/usr/lib");
+=======
+SEARCH_DIR("/home/linuxbrew/.linuxbrew/Cellar/binutils/2.29/i386-pc-linux-gnu/lib32"); SEARCH_DIR("/home/linuxbrew/.linuxbrew/Cellar/binutils/2.29/x86_64-pc-linux-gnu/lib32"); SEARCH_DIR("/home/linuxbrew/.linuxbrew/Cellar/binutils/2.29/lib32"); SEARCH_DIR("/usr/local/lib32"); SEARCH_DIR("/lib32"); SEARCH_DIR("/usr/lib32"); SEARCH_DIR("/home/linuxbrew/.linuxbrew/Cellar/binutils/2.29/i386-pc-linux-gnu/lib"); SEARCH_DIR("/home/linuxbrew/.linuxbrew/Cellar/binutils/2.29/lib"); SEARCH_DIR("/usr/local/lib"); SEARCH_DIR("/lib"); SEARCH_DIR("/usr/lib");
+>>>>>>> b1ef5eb6f117b546b9ec61f8df24f6e8fb1bb1e7
 SECTIONS
 {
   /* Read-only sections, merged into text segment: */

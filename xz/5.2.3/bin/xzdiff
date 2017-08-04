@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #!/bin/bash
+=======
+#!/bin/sh
+>>>>>>> b1ef5eb6f117b546b9ec61f8df24f6e8fb1bb1e7
 
 # Copyright (C) 1998, 2002, 2006, 2007 Free Software Foundation
 # Copyright (C) 1993 Jean-loup Gailly

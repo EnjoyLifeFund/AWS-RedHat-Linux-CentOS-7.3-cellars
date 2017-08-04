@@ -6,7 +6,11 @@
 OUTPUT_FORMAT("a.out-i386-linux", "a.out-i386-linux",
 	      "a.out-i386-linux")
 OUTPUT_ARCH(i386)
+<<<<<<< HEAD
 SEARCH_DIR("=/home/linuxbrew/.linuxbrew/Cellar/binutils/2.29/i386-pc-linux-gnuaout/lib");
+=======
+SEARCH_DIR("/home/linuxbrew/.linuxbrew/Cellar/binutils/2.29/i386-pc-linux-gnuaout/lib");
+>>>>>>> b1ef5eb6f117b546b9ec61f8df24f6e8fb1bb1e7
 PROVIDE (__stack = 0);
 SECTIONS
 {
