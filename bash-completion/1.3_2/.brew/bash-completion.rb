@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# bash-completion: Build a bottle for Linuxbrew
-=======
->>>>>>> b1ef5eb6f117b546b9ec61f8df24f6e8fb1bb1e7
 # NOTE: version 2 is out, but it requires Bash 4, and macOS ships
 # with 3.2.57. If you've upgraded bash, use bash-completion@2 instead.
 class BashCompletion < Formula
@@ -33,11 +29,7 @@ class BashCompletion < Formula
   end
 
   def caveats; <<-EOS.undent
-<<<<<<< HEAD
-    Add the following lines to your ~/.bash_profile:
-=======
     Add the following line to your ~/.bash_profile:
->>>>>>> b1ef5eb6f117b546b9ec61f8df24f6e8fb1bb1e7
       [ -f #{etc}/bash_completion ] && . #{etc}/bash_completion
     EOS
   end
