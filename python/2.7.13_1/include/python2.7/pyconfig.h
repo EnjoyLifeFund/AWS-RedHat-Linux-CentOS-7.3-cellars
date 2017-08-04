@@ -435,7 +435,7 @@
 #define HAVE_LIBINTL_H 1
 
 /* Define if you have the readline library (-lreadline). */
-#define HAVE_LIBREADLINE 1
+/* #undef HAVE_LIBREADLINE */
 
 /* Define to 1 if you have the `resolv' library (-lresolv). */
 /* #undef HAVE_LIBRESOLV */
@@ -558,28 +558,28 @@
 #define HAVE_REALPATH 1
 
 /* Define if you have readline 2.1 */
-#define HAVE_RL_CALLBACK 1
+/* #undef HAVE_RL_CALLBACK */
 
 /* Define if you can turn off readline's signal handling. */
-#define HAVE_RL_CATCH_SIGNAL 1
+/* #undef HAVE_RL_CATCH_SIGNAL */
 
 /* Define if you have readline 2.2 */
-#define HAVE_RL_COMPLETION_APPEND_CHARACTER 1
+/* #undef HAVE_RL_COMPLETION_APPEND_CHARACTER */
 
 /* Define if you have readline 4.0 */
-#define HAVE_RL_COMPLETION_DISPLAY_MATCHES_HOOK 1
+/* #undef HAVE_RL_COMPLETION_DISPLAY_MATCHES_HOOK */
 
 /* Define if you have readline 4.2 */
-#define HAVE_RL_COMPLETION_MATCHES 1
+/* #undef HAVE_RL_COMPLETION_MATCHES */
 
 /* Define if you have rl_completion_suppress_append */
-#define HAVE_RL_COMPLETION_SUPPRESS_APPEND 1
+/* #undef HAVE_RL_COMPLETION_SUPPRESS_APPEND */
 
 /* Define if you have readline 4.0 */
-#define HAVE_RL_PRE_INPUT_HOOK 1
+/* #undef HAVE_RL_PRE_INPUT_HOOK */
 
 /* Define if you have readline 4.0 */
-#define HAVE_RL_RESIZE_TERMINAL 1
+/* #undef HAVE_RL_RESIZE_TERMINAL */
 
 /* Define to 1 if you have the `round' function. */
 #define HAVE_ROUND 1
@@ -709,7 +709,7 @@
 #define HAVE_STRING_H 1
 
 /* Define to 1 if you have the <stropts.h> header file. */
-#define HAVE_STROPTS_H 1
+/* #undef HAVE_STROPTS_H */
 
 /* Define to 1 if `st_birthtime' is a member of `struct stat'. */
 /* #undef HAVE_STRUCT_STAT_ST_BIRTHTIME */
@@ -982,7 +982,7 @@
 /* #undef Py_DEBUG */
 
 /* Defined if Python is built as a shared library. */
-#define Py_ENABLE_SHARED 1
+/* #undef Py_ENABLE_SHARED */
 
 /* Define as the size of the unicode type. */
 #define Py_UNICODE_SIZE 2
