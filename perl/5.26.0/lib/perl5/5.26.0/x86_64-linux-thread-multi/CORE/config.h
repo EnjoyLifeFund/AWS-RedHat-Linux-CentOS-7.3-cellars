@@ -9,9 +9,9 @@
 
 /* Package name      : perl5
  * Source directory  : .
- * Configuration time: Sun Jun 25 20:00:00 UTC 2017
- * Configured by     : ubuntu
- * Target system     : linux box3507.localdomain 3.13.0-119-generic #166-ubuntu smp wed may 3 12:18:55 utc 2017 x86_64 x86_64 x86_64 gnulinux 
+ * Configuration time: Fri Aug  4 17:58:06 EDT 2017
+ * Configured by     : ec2-user
+ * Target system     : linux job-security.org 4.11.11-300.fc26.x86_64 #1 smp mon jul 17 16:32:11 utc 2017 x86_64 x86_64 x86_64 gnulinux 
  */
 
 #ifndef _config_h_
@@ -20,7 +20,7 @@
 /* LOC_SED:
  *	This symbol holds the complete pathname to the sed program.
  */
-#define LOC_SED 	"/bin/sed"	/**/
+#define LOC_SED 	"/usr/bin/sed"	/**/
 
 /* HAS_ALARM:
  *	This symbol, if defined, indicates that the alarm routine is
@@ -1538,7 +1538,7 @@
  *	feature tests from Configure are generally more reliable.
  */
 #define OSNAME "linux"		/**/
-#define OSVERS "3.13.0-119-generic"		/**/
+#define OSVERS "4.11.11-300.fc26.x86_64"		/**/
 
 /* CAT2:
  *	This macro concatenates 2 tokens together.
@@ -1783,7 +1783,7 @@
 #define HAS_UNAME		/**/
 /*#define HAS_PHOSTNAME	/ **/
 #ifdef HAS_PHOSTNAME
-#define PHOSTNAME "/bin/hostname"	/* How to get the host name */
+#define PHOSTNAME "/usr/bin/hostname"	/* How to get the host name */
 #endif
 
 /* HAS_GETNETBYADDR:
@@ -3739,7 +3739,7 @@
  *	This symbol, if defined, indicates that <bfd.h> exists and
  *	can be included.
  */
-/*#define	I_BFD		/ **/
+#define	I_BFD		/**/
 
 /* I_CRYPT:
  *	This symbol, if defined, indicates that <crypt.h> exists and
@@ -3773,9 +3773,9 @@
  */
 #define DB_Hash_t	u_int32_t		/**/
 #define DB_Prefix_t	size_t  	/**/
-#define DB_VERSION_MAJOR_CFG	6  	/**/
-#define DB_VERSION_MINOR_CFG	2  	/**/
-#define DB_VERSION_PATCH_CFG	23  	/**/
+#define DB_VERSION_MAJOR_CFG	4  	/**/
+#define DB_VERSION_MINOR_CFG	8  	/**/
+#define DB_VERSION_PATCH_CFG	30  	/**/
 
 /* I_FENV:
  *	This symbol, if defined, indicates to the C program that it should
@@ -3853,7 +3853,7 @@
  *	This symbol, if defined, indicates that <quadmath.h> exists and
  *	should be included.
  */
-#define	I_QUADMATH		/**/
+/*#define	I_QUADMATH		/ **/
 
 /* I_SHADOW:
  *	This symbol, if defined, indicates that <shadow.h> exists and
@@ -4314,8 +4314,8 @@
  */
 #define GMTIME_MAX		67768036191676799	/**/
 #define GMTIME_MIN		-62167219200	/**/
-#define LOCALTIME_MAX	67768036191676799	/**/
-#define LOCALTIME_MIN	-62167219200	/**/
+#define LOCALTIME_MAX	67768036191694799	/**/
+#define LOCALTIME_MIN	-62167201438	/**/
 
 /* USE_64_BIT_INT:
  *	This symbol, if defined, indicates that 64-bit integers should
