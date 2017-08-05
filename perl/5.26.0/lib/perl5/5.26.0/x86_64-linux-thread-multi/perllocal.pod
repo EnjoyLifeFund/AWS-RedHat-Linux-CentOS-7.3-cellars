@@ -394,3 +394,47 @@ C<EXE_FILES: >
 
 =back
 
+=head2 Sat Aug  5 11:04:14 2017: C<Module> L<HTML::Parser|HTML::Parser>
+
+=over 4
+
+=item *
+
+C<installed into: /home/linuxbrew/.linuxbrew/Cellar/perl/5.26.0/lib/perl5/site_perl/5.26.0>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 3.72>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Sat Aug  5 11:04:30 2017: C<Module> L<libwww::perl|libwww::perl>
+
+=over 4
+
+=item *
+
+C<installed into: /home/linuxbrew/.linuxbrew/Cellar/perl/5.26.0/lib/perl5/site_perl/5.26.0>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 6.26>
+
+=item *
+
+C<EXE_FILES: bin/lwp-download bin/lwp-dump bin/lwp-mirror bin/lwp-request>
+
+=back
+
