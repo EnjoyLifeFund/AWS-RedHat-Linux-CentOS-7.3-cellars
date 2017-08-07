@@ -9,7 +9,7 @@
 
 /* Package name      : perl5
  * Source directory  : .
- * Configuration time: Fri Aug  4 17:58:06 EDT 2017
+ * Configuration time: Mon Aug  7 17:38:06 EDT 2017
  * Configured by     : ec2-user
  * Target system     : linux job-security.org 4.11.11-300.fc26.x86_64 #1 smp mon jul 17 16:32:11 utc 2017 x86_64 x86_64 x86_64 gnulinux 
  */
